@@ -1,0 +1,87 @@
+/*add-property, add-vendor, edit-property, edit-vendor*/
+#edit-form {
+  background-color: #2196f3;
+  width: 600px;
+  text-align: center;
+  color: white;
+}
+#edit-form td {
+  transform: translateX(45px);
+}
+#edit-form input,
+textarea {
+  text-align: center;
+  width: 300px;
+  margin: 5px;
+  font-size: 12px;
+}
+#addproperty {
+  margin-left: 400px;
+}
+#comment-header {
+  font-size: 12px;
+  transform: translateY(-5px);
+  margin-left: 60px;
+  padding: 10px;
+}
+#submit {
+  width: 90px !important;
+  /*transform: translateX(130px);*/
+}
+/*-------------property-added-confirm---*/
+#comment-heading {
+  font-size: 14px;
+  margin-left: 40px;
+  margin-top: 10px;
+  padding: 10px;
+}
+#comment-heading h3 {
+  margin: 20px;
+}
+#comment-heading p {
+  margin: 20px;
+}
+#button-div {
+  margin-left: 70px;
+}
+#button-div a {
+  text-decoration: none;
+  color: white;
+}
+#second-btn {
+  margin-left: 220px;
+}
+#button-div button {
+  background-color: #2196f3;
+  border-radius: 10px;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  #edit-form {
+    margin-left: -300px;
+  }
+  /*----------------edit header comment---------*/
+  #comment-header {
+    margin-top: 30px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #edit-form {
+    margin-left: -350px;
+    width: 300px;
+  }
+  #edit-form input {
+    width: 100px;
+    margin-left: -10px;
+  }
+  #edit-form textarea {
+    margin-left: -1px;
+    width: 100px;
+  }
+  /*----------------edit header comment---------*/
+  #comment-header {
+    margin-top: 10px;
+    font-size: 8px;
+  }
+}
