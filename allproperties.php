@@ -16,9 +16,9 @@
 <?php include("includes/header.html");?>
 <?php
 //connect to the database
-$server="localhost";
-$dbuser="root";
-$password="";
+$server="sql304.epizy.com";
+$dbuser="epiz_29681339";
+$password="UwBmgci7k0FQ3";
 //pass the parameter to the mysqli  to the link handle store the conection
 $link=mysqli_connect($server,$dbuser,$password);
 //choose the database that we are going to use

@@ -15,9 +15,9 @@
 <div id="content">
 <?php
 //connection
-$server="localhost";
-$dbuser="root";
-$password="";
+$server="sql304.epizy.com";
+$dbuser="epiz_29681339";
+$password="UwBmgci7k0FQ3";
 $link=mysqli_connect($server,$dbuser,$password);
 mysqli_select_db($link,"epiz_29681339_properties");
 //posting the values of the form to the db

@@ -8,9 +8,9 @@
 </head>
 <body>
     <?php
-$server="localhost";
-$dbuser="root";
-$password="";
+$server="sql304.epizy.com";
+$dbuser="epiz_29681339";
+$password="UwBmgci7k0FQ3";
 $link=mysqli_connect($server,$dbuser,$password);
 require 'connect.php';
 $id= $_GET["id"];

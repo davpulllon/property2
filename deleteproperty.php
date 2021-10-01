@@ -4,7 +4,7 @@ $propertyid= $propertyid = (isset($_GET['propertyid']) ? $_GET['propertyid'] : '
 $sql= "DELETE FROM property WHERE propertyid=$propertyid";
 if (mysqli_query( $link, $sql))
 {
-header("Location: http://localhost/property2/manageproperties.php");
+header("Location: http://eireproperties.freecluster.eu/manageproperties.php");
  exit;
 }
 else

@@ -19,9 +19,9 @@
 <div id="content">
 <button onclick="history.back()" id="back-properties">Back to properties</button>
 <?php
-$server="localhost";
-$dbuser="root";
-$password="";
+$server="sql304.epizy.com";
+$dbuser="epiz_29681339";
+$password="UwBmgci7k0FQ3";
 $link=mysqli_connect($server,$dbuser,$password);
 mysqli_select_db($link, "epiz_29681339_properties");
 $propertyid= $propertyid = (isset($_GET['propertyid']) ? $_GET['propertyid'] : '');
